@@ -50,11 +50,23 @@ table {
 body{
     text-align: center;
     font-size: 16px;
+    max-width: 1920px;
 }
 
 .home{
     width: 100%;
     height: 100vh;
-    background-color: #fa2229;
+    background: url("assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+nav{
+display: inline;
+}
+li {
+  display: inline;
+  width:20%;
 
 }
