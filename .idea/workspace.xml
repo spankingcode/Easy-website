@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9c3c8f8-1b36-4290-a8bd-007064ac5de8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main-style.css" afterPath="$PROJECT_DIR$/assets/css/main-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Easy-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1483051771296</updated>
       <workItem from="1483051772491" duration="11136000" />
-      <workItem from="1483094260525" duration="35134000" />
+      <workItem from="1483094260525" duration="35186000" />
     </task>
     <task id="LOCAL-00001" summary="all structure, and assets">
       <created>1483062113647</created>
@@ -232,11 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483144897675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="99% desktop vers.&#10;">
+      <created>1483145688490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483145688490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46270000" />
+    <option name="totallyTimeSpent" value="46322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="0" width="2417" height="1315" extended-state="0" />
@@ -275,7 +280,8 @@
     <MESSAGE value="all structure, and assets" />
     <MESSAGE value="add styles and properties css, progress 70%" />
     <MESSAGE value="html and css style. 95% ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="html and css style. 95% ready" />
+    <MESSAGE value="99% desktop vers.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="99% desktop vers.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
