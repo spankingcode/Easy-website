@@ -58,7 +58,6 @@ table {
 
 body {
     text-align: center;
-    font-size: 16px;
     font-family: Ubuntu;
     color: #fff;
     position: relative;
@@ -70,34 +69,44 @@ body {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 900;
+    line-height: 10.36rem;
     text-shadow: 10px 10px 10px #000;
     opacity: 0.8;
     color: #fff;
-    padding-top: 15%;
+    padding-top: 12%;
     padding-bottom: 5%;
 
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    line-height: 3.7rem;
     color: #000;
-    padding: 1%;
     background-color: rgba(255, 214, 0, 0.8);
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
+    line-height: 2.96rem;
 }
 
 p {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 400;
+    line-height: 2.59rem;
+}
+
+li, dt, dd {
+    font-size: 1.5rem;
+    line-height: 2.59rem;
+
+
 }
 
 a {
@@ -107,14 +116,13 @@ a {
 
 section {
     margin: 0 auto;
-    /*width: 80%;*/
     background-color: #fff;
     color: #000;
 
 }
 
 main {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -127,6 +135,7 @@ main {
     height: 100vh;
     background: url('../images/bg.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     top: 0;
     left: 0;
@@ -138,7 +147,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3%;
-    width: 20%;
+    width: 15%;
     opacity: 0.7;
     border-radius: 10px;
     background-color: #eee;
@@ -147,7 +156,6 @@ main {
 .home-list-item {
     color: #000;
     font-size: 2rem;
-    font-weight: 500;
     padding: 2% 0 2% 0;
 }
 
@@ -159,11 +167,11 @@ main {
 }
 
 a.home-link {
-
     color: #ffd600;
     background-color: #000;
     padding: 1% 3% 1% 3%;
     border-radius: 10px;
+
 
 }
 
@@ -180,14 +188,15 @@ a.home-link:hover {
 header {
     position: fixed;
     top: 0;
-    z-index: 9;
+    z-index:9;
     width: 100%;
-    height: 4.5rem;
+    height: 3.77rem;
     background-color: #eee;
     box-shadow: 2px 3px 20px #000;
 }
 
 nav {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -197,8 +206,9 @@ nav {
 
 .nav-list {
     display: inline;
-    font-size: 3rem;
-    padding: 0 1% 0 1%;
+    font-size: 2.5rem;
+    line-height: 3.7rem;
+    padding: 0 1rem;
     border-left: 2px solid #fff;
 
 }
@@ -224,12 +234,13 @@ nav {
 }
 
 .about, .garage, .detailing, .contact {
-    padding: 5rem 0 2.5rem 0;
+    padding: 4.5rem 0 1rem 0;
 }
 
 .about-p {
     margin: 3%;
     text-align: left;
+
 
 }
 
@@ -263,21 +274,22 @@ nav {
 .garage-ul-list {
     box-shadow: 2px 3px 20px #000;
     border-radius: 20px;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .garage-list {
-    font-size: 2rem;
     border-top: 1px solid #c5c8c0;
-    padding: 1% 1%;
 }
 
 .garage-list:first-of-type {
     border-top: none;
 }
+.garage-list:nth-child(2n){
+    background-color: #c5c8c0;
 
+}
 .detailing-box {
     display: block;
     float: left;
@@ -293,9 +305,9 @@ nav {
 }
 
 .detailing-list {
-    font-size: 1.5rem;
+
     border-top: 1px solid #c5c8c0;
-    padding: 2% 1%;
+
 }
 
 .detailing-list:hover {
@@ -309,7 +321,7 @@ nav {
 }
 
 .detailing-title, .detail-price {
-    padding: 4% 1%;
+    padding: 2% 0;
     color: #fff;
 }
 
@@ -322,55 +334,135 @@ nav {
 .detail-price {
     background-color: #473DFF;
     border-radius: 0 0 20px 20px;
-    font-size: 2.5rem;
+
 }
 
 .price-span {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
 }
 
 .contact {
     background-color: #fff;
-    color: black;
+    color: #000;
     border-radius: 20px;
+    padding-bottom:4.5rem;
 
 }
 
 .contact-box {
     display: inline-block;
-    width: 49%;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 45%;
+    margin:0 1%;
+    box-shadow: 2px 3px 20px #000;
+    border-radius: 20px;
 }
 
 .contact-title {
     text-transform: capitalize;
     margin-bottom: 4%;
+    background-color: #FF5756;
+    color:#fff;
+    border-radius: 20px 20px 0 0;
 
 }
 
 .contact-hours {
-    font-size: 2rem;
+
     text-align: left;
     padding: 1% 0;
 }
 
 dt.contact-hours, dd.contact-hours {
     display: inline-block;
-    text-align: left;
-    width: 45%;
+    width: 25%;
 
 }
 
 dd.contact-hours {
-    width: 45%;
+    width: 60%;
     text-align: right;
 }
 
-footer p {
-    font-size: 1rem;
+footer {
     color: #000;
-    padding: 2%;
 
 }
+
+footer p {
+    font-size: 1.5rem;
+    padding: 1%;
+
+}
+
+/*@media screen and (min-width: 2048px) {*/
+    /*h1 {*/
+        /*font-size: 11rem;*/
+        /*padding-top: 10%;*/
+    /*}*/
+
+    /*.home-list-item {*/
+        /*font-size: 2.85rem;*/
+
+    /*}*/
+
+    /*.nav-list {*/
+        /*font-size: 4.5rem;*/
+    /*}*/
+
+    /*h2 {*/
+        /*font-size: 4rem;*/
+    /*}*/
+
+    /*p {*/
+        /*font-size: 3rem;*/
+    /*}*/
+
+    /*h3 {*/
+        /*font-size: 3.5rem;*/
+    /*}*/
+
+    /*footer p {*/
+        /*font-size: 3rem;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 1920px) {*/
+    /*h1 {*/
+        /*padding-top: 15%;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 1680px) {*/
+    /*h1 {*/
+
+        /*padding-top: 14%;*/
+    /*}*/
+
+    /*header {*/
+        /*height: 6rem;*/
+    /*}*/
+
+    /*.nav-list {*/
+        /*font-size: 4rem;*/
+    /*}*/
+
+    /*h2 {*/
+        /*font-size: 3.75rem;*/
+    /*}*/
+
+    /*p {*/
+        /*font-size: 3rem;*/
+    /*}*/
+    /*.garage-list{*/
+        /*font-size: 2.75rem;*/
+    /*}*/
+    /*h3 {*/
+        /*font-size: 3.5rem;*/
+    /*}*/
+
+    /*footer p {*/
+        /*font-size: 3rem;*/
+    /*}*/
+/*}*/
