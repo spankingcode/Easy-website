@@ -2,15 +2,12 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/index.html" />
-    <bookmark url="file://$PROJECT_DIR$/assets/css/main-style.css" line="408" />
     <bookmark url="file://$PROJECT_DIR$/assets/css/main-style.css" line="59" />
     <bookmark url="file://$PROJECT_DIR$/assets/css/main-style.css" line="71" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9c3c8f8-1b36-4290-a8bd-007064ac5de8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main-style.css" afterPath="$PROJECT_DIR$/assets/css/main-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Easy-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +65,8 @@
               <file leaf-file-name="main-style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/css/main-style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="354" column="16" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="16" />
+                    <state relative-caret-position="661">
+                      <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -90,6 +87,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="media-queries" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -273,7 +275,7 @@
       <workItem from="1483094260525" duration="35186000" />
       <workItem from="1483280087123" duration="11027000" />
       <workItem from="1483478052199" duration="8211000" />
-      <workItem from="1483526680263" duration="16558000" />
+      <workItem from="1483526680263" duration="16912000" />
     </task>
     <task id="LOCAL-00001" summary="all structure, and assets">
       <created>1483062113647</created>
@@ -317,17 +319,31 @@
       <option name="project" value="LOCAL" />
       <updated>1483486341770</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor all sizes, font, boxes etc. the desktop version is ready. :)">
+      <created>1483560636358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1483560636358</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add-only -media queries break points - unformated">
+      <created>1483560883392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483560883392</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82118000" />
+    <option name="totallyTimeSpent" value="82472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="306" y="212" width="1849" height="933" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075648814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075648814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.219935" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -362,7 +378,9 @@
     <MESSAGE value="html and css style. 95% ready" />
     <MESSAGE value="99% desktop vers.&#10;" />
     <MESSAGE value="desktop version allready. width 2560" />
-    <option name="LAST_COMMIT_MESSAGE" value="desktop version allready. width 2560" />
+    <MESSAGE value="refactor all sizes, font, boxes etc. the desktop version is ready. :)" />
+    <MESSAGE value="add-only -media queries break points - unformated" />
+    <option name="LAST_COMMIT_MESSAGE" value="add-only -media queries break points - unformated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="354" column="16" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="16" />
+        <state relative-caret-position="661">
+          <caret line="433" column="0" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
           <folding />
         </state>
       </provider>
