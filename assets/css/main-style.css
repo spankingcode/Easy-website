@@ -394,75 +394,41 @@ footer p {
 
 }
 
-/*@media screen and (min-width: 2048px) {*/
-    /*h1 {*/
-        /*font-size: 11rem;*/
-        /*padding-top: 10%;*/
-    /*}*/
+@media screen and (min-width: 2560px) {
 
-    /*.home-list-item {*/
-        /*font-size: 2.85rem;*/
 
-    /*}*/
+}
 
-    /*.nav-list {*/
-        /*font-size: 4.5rem;*/
-    /*}*/
+@media screen and (min-width: 1920px) {
 
-    /*h2 {*/
-        /*font-size: 4rem;*/
-    /*}*/
 
-    /*p {*/
-        /*font-size: 3rem;*/
-    /*}*/
+}
 
-    /*h3 {*/
-        /*font-size: 3.5rem;*/
-    /*}*/
+@media screen and (min-width: 1680px) {
 
-    /*footer p {*/
-        /*font-size: 3rem;*/
-    /*}*/
+}
+@media screen and (min-width: 1680px) {
 
-/*}*/
+}
+@media screen and (min-width: 1440px) {
 
-/*@media screen and (min-width: 1920px) {*/
-    /*h1 {*/
-        /*padding-top: 15%;*/
-    /*}*/
+}
+@media screen and (min-width: 1366px) {
 
-/*}*/
+}
+@media screen and (min-width: 1280px) {
 
-/*@media screen and (min-width: 1680px) {*/
-    /*h1 {*/
+}
+@media screen and (min-width: 1024px) {
 
-        /*padding-top: 14%;*/
-    /*}*/
+}
+@media screen and (min-width: 768px) {
 
-    /*header {*/
-        /*height: 6rem;*/
-    /*}*/
+}
+@media screen and (min-width: 480px) {
 
-    /*.nav-list {*/
-        /*font-size: 4rem;*/
-    /*}*/
+}
+@media screen and (min-width: 320px) {
 
-    /*h2 {*/
-        /*font-size: 3.75rem;*/
-    /*}*/
+}
 
-    /*p {*/
-        /*font-size: 3rem;*/
-    /*}*/
-    /*.garage-list{*/
-        /*font-size: 2.75rem;*/
-    /*}*/
-    /*h3 {*/
-        /*font-size: 3.5rem;*/
-    /*}*/
-
-    /*footer p {*/
-        /*font-size: 3rem;*/
-    /*}*/
-/*}*/
